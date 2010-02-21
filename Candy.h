@@ -22,6 +22,7 @@
 @property (nonatomic, retain) NSNumber * peanuts;
 @property (nonatomic, retain) NSNumber * white;
 @property (nonatomic, retain) NSNumber * favorite;
+@property (nonatomic, retain) NSNumber * vegetarian;
 @property (nonatomic, retain) NSString * name;
 
 @end

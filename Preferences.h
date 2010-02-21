@@ -21,6 +21,7 @@
 @property (nonatomic, retain) NSNumber * milk;
 @property (nonatomic, retain) NSNumber * sugarfree;
 @property (nonatomic, retain) NSNumber * white;
+@property (nonatomic, retain) NSNumber * vegetarian;
 
 @end
 

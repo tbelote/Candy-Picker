@@ -3,11 +3,13 @@
 //  Candy Picker
 //
 //  Created by Thomas Belote on 2/14/10.
-//  Copyright KinKast, Inc. 2010. All rights reserved.
+//  Copyright Thomas Belote 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
 #import <Foundation/Foundation.h>
+#import <CoreData/CoreData.h>
+#import "Candy.h"
 
 @interface Candy_PickerViewController : UIViewController {
 	
@@ -21,7 +23,9 @@
 	IBOutlet UISwitch *kosher;
 	IBOutlet UITextView *results;
 	IBOutlet UIButton *reload;
+	IBOutlet UIScrollView *scrollView;
 	NSMutableArray *candyChoices;
+	NSManagedObjectContext *managedObjectContext;
 	
 }
 @property (nonatomic, retain) UISwitch *dark;
@@ -34,7 +38,8 @@
 @property (nonatomic, retain) UISwitch *kosher;
 @property (nonatomic, retain) UITextView *results;
 @property (nonatomic, retain) UIButton *reload;
-@property (readwrite, assign) NSMutableArray *candyChoices;
+@property (nonatomic, retain) NSMutableArray *candyChoices;
+@property (nonatomic, retain) NSManagedObjectContext *managedObjectContext;
 
 - (IBAction) pressedButtonReload: (id) sender;
 

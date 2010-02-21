@@ -20,6 +20,7 @@
 @dynamic peanuts;
 @dynamic white;
 @dynamic favorite;
+@dynamic vegetarian;
 @dynamic name;
 
 @end

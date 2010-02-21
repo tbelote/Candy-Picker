@@ -19,5 +19,6 @@
 @dynamic milk;
 @dynamic sugarfree;
 @dynamic white;
+@dynamic vegetarian;
 
 @end

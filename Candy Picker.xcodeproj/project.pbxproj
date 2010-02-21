@@ -15,9 +15,10 @@
 		2899E5220DE3E06400AC0155 /* Candy_PickerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2899E5210DE3E06400AC0155 /* Candy_PickerViewController.xib */; };
 		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
 		28D7ACF80DDB3853001CB0EB /* Candy_PickerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */; };
-		6122D7C511287D4C00435110 /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6122D7C411287D4C00435110 /* Candy.m */; };
 		6122D7D91128AD1100435110 /* candy.xcdatamodel in Sources */ = {isa = PBXBuildFile; fileRef = 6122D7D81128AD1100435110 /* candy.xcdatamodel */; };
 		6130F2511128F00B008E3F50 /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6130F2501128F00B008E3F50 /* CoreData.framework */; };
+		61F32711112927980030F460 /* Candy.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F3270E112927980030F460 /* Candy.m */; };
+		61F32712112927980030F460 /* Preferences.m in Sources */ = {isa = PBXBuildFile; fileRef = 61F32710112927980030F460 /* Preferences.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,10 +34,12 @@
 		28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candy_PickerViewController.m; sourceTree = "<group>"; };
 		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		32CA4F630368D1EE00C91783 /* Candy_Picker_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candy_Picker_Prefix.pch; sourceTree = "<group>"; };
-		6122D7C311287D4C00435110 /* Candy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Candy.h; sourceTree = "<group>"; };
-		6122D7C411287D4C00435110 /* Candy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Candy.m; sourceTree = "<group>"; };
 		6122D7D81128AD1100435110 /* candy.xcdatamodel */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = wrapper.xcdatamodel; path = candy.xcdatamodel; sourceTree = "<group>"; };
 		6130F2501128F00B008E3F50 /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		61F3270D112927980030F460 /* Candy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Candy.h; path = ../Candy.h; sourceTree = "<group>"; };
+		61F3270E112927980030F460 /* Candy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Candy.m; path = ../Candy.m; sourceTree = "<group>"; };
+		61F3270F112927980030F460 /* Preferences.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = Preferences.h; path = ../Preferences.h; sourceTree = "<group>"; };
+		61F32710112927980030F460 /* Preferences.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Preferences.m; path = ../Preferences.m; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Candy_Picker-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Candy_Picker-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -58,12 +61,14 @@
 		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				61F3270D112927980030F460 /* Candy.h */,
+				61F3270E112927980030F460 /* Candy.m */,
+				61F3270F112927980030F460 /* Preferences.h */,
+				61F32710112927980030F460 /* Preferences.m */,
 				1D3623240D0F684500981E51 /* Candy_PickerAppDelegate.h */,
 				1D3623250D0F684500981E51 /* Candy_PickerAppDelegate.m */,
 				28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */,
 				28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */,
-				6122D7C311287D4C00435110 /* Candy.h */,
-				6122D7C411287D4C00435110 /* Candy.m */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -179,8 +184,9 @@
 				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
 				1D3623260D0F684500981E51 /* Candy_PickerAppDelegate.m in Sources */,
 				28D7ACF80DDB3853001CB0EB /* Candy_PickerViewController.m in Sources */,
-				6122D7C511287D4C00435110 /* Candy.m in Sources */,
 				6122D7D91128AD1100435110 /* candy.xcdatamodel in Sources */,
+				61F32711112927980030F460 /* Candy.m in Sources */,
+				61F32712112927980030F460 /* Preferences.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

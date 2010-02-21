@@ -2,16 +2,16 @@
 {
 	1D3623240D0F684500981E51 /* Candy_PickerAppDelegate.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1059, 563}}";
-			sepNavSelRange = "{357, 0}";
-			sepNavVisRange = "{0, 506}";
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 505}}";
+			sepNavSelRange = "{1030, 0}";
+			sepNavVisRange = "{0, 1038}";
 		};
 	};
 	1D3623250D0F684500981E51 /* Candy_PickerAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1059, 563}}";
-			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 640}";
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 1651}}";
+			sepNavSelRange = "{397, 0}";
+			sepNavVisRange = "{50, 992}";
 		};
 	};
 	1D6058900D05DD3D006BFB54 /* Candy Picker */ = {
@@ -22,16 +22,18 @@
 	};
 	28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1059, 563}}";
-			sepNavSelRange = "{253, 18}";
-			sepNavVisRange = "{0, 1184}";
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 624}}";
+			sepNavSelRange = "{1141, 0}";
+			sepNavVisRange = "{56, 1335}";
+			sepNavWindowFrame = "{{63, 810}, {1153, 603}}";
 		};
 	};
 	28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1059, 1066}}";
-			sepNavSelRange = "{985, 0}";
-			sepNavVisRange = "{0, 1124}";
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 13039}}";
+			sepNavSelRange = "{437, 0}";
+			sepNavVisRange = "{56, 1049}";
+			sepNavWindowFrame = "{{63, 810}, {1153, 603}}";
 		};
 	};
 	29B97313FDCFA39411CA2CEA /* Project object */ = {
@@ -41,11 +43,28 @@
 		addToTargets = (
 			1D6058900D05DD3D006BFB54 /* Candy Picker */,
 		);
+		breakpoints = (
+			611CBFCC113129B30096694B /* Candy_PickerViewController.m:29 */,
+		);
 		codeSenseManager = 6122D7B2112878F900435110 /* Code sense */;
 		executables = (
 			6122D7AD112878DA00435110 /* Candy Picker */,
 		);
 		perUserDictionary = {
+			PBXConfiguration.PBXFileTableDataSource3.PBXBookmarksDataSource = {
+				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
+				PBXFileTableDataSourceColumnSortingKey = PBXBookmarksDataSource_NameID;
+				PBXFileTableDataSourceColumnWidthsKey = (
+					200,
+					200,
+					691,
+				);
+				PBXFileTableDataSourceColumnsKey = (
+					PBXBookmarksDataSource_LocationID,
+					PBXBookmarksDataSource_NameID,
+					PBXBookmarksDataSource_CommentsID,
+				);
+			};
 			PBXConfiguration.PBXFileTableDataSource3.PBXFileTableDataSource = {
 				PBXFileTableDataSourceColumnSortingDirectionKey = "-1";
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
@@ -68,21 +87,107 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 287892862;
-			PBXWorkspaceStateSaveDate = 287892862;
+			PBXPerProjectTemplateStateSaveDate = 288433686;
+			PBXWorkspaceStateSaveDate = 288433686;
 		};
 		perUserProjectItems = {
-			6122D7F21128B0C800435110 /* PlistBookmark */ = 6122D7F21128B0C800435110 /* PlistBookmark */;
-			6130F1851128E593008E3F50 /* PBXTextBookmark */ = 6130F1851128E593008E3F50 /* PBXTextBookmark */;
-			6130F1861128E593008E3F50 /* PBXTextBookmark */ = 6130F1861128E593008E3F50 /* PBXTextBookmark */;
-			6130F2841128F47F008E3F50 /* PBXTextBookmark */ = 6130F2841128F47F008E3F50 /* PBXTextBookmark */;
-			6130F2851128F47F008E3F50 /* PBXTextBookmark */ = 6130F2851128F47F008E3F50 /* PBXTextBookmark */;
-			6130F2861128F47F008E3F50 /* PBXTextBookmark */ = 6130F2861128F47F008E3F50 /* PBXTextBookmark */;
-			6130F2871128F47F008E3F50 /* PBXTextBookmark */ = 6130F2871128F47F008E3F50 /* PBXTextBookmark */;
-			6130F2881128F47F008E3F50 /* PBXTextBookmark */ = 6130F2881128F47F008E3F50 /* PBXTextBookmark */;
-			6130F2891128F47F008E3F50 /* PBXTextBookmark */ = 6130F2891128F47F008E3F50 /* PBXTextBookmark */;
-			6130F28A1128F47F008E3F50 /* XDModelBookmark */ = 6130F28A1128F47F008E3F50 /* XDModelBookmark */;
-			6130F28B1128F47F008E3F50 /* XDModelBookmark */ = 6130F28B1128F47F008E3F50 /* XDModelBookmark */;
+			611CBFAD113126650096694B /* PBXTextBookmark */ = 611CBFAD113126650096694B /* PBXTextBookmark */;
+			611CBFBA113126B40096694B /* PBXTextBookmark */ = 611CBFBA113126B40096694B /* PBXTextBookmark */;
+			611CBFC0113127EF0096694B /* PBXTextBookmark */ = 611CBFC0113127EF0096694B /* PBXTextBookmark */;
+			611CBFC31131288C0096694B /* XCBuildMessageTextBookmark */ = 611CBFC31131288C0096694B /* XCBuildMessageTextBookmark */;
+			611CBFC41131288C0096694B /* PBXTextBookmark */ = 611CBFC41131288C0096694B /* PBXTextBookmark */;
+			611CBFC7113128960096694B /* PBXTextBookmark */ = 611CBFC7113128960096694B /* PBXTextBookmark */;
+			611CBFCA113128BA0096694B /* PBXTextBookmark */ = 611CBFCA113128BA0096694B /* PBXTextBookmark */;
+			611CBFD0113129B80096694B /* PBXTextBookmark */ = 611CBFD0113129B80096694B /* PBXTextBookmark */;
+			611CBFD1113129B80096694B /* PBXTextBookmark */ = 611CBFD1113129B80096694B /* PBXTextBookmark */;
+			611CBFD2113129B80096694B /* PBXTextBookmark */ = 611CBFD2113129B80096694B /* PBXTextBookmark */;
+			611CBFD4113129D30096694B /* XCBuildMessageTextBookmark */ = 611CBFD4113129D30096694B /* XCBuildMessageTextBookmark */;
+			611CBFD5113129D30096694B /* PBXTextBookmark */ = 611CBFD5113129D30096694B /* PBXTextBookmark */;
+			611CBFD6113129D30096694B /* PBXTextBookmark */ = 611CBFD6113129D30096694B /* PBXTextBookmark */;
+			611CBFD7113129E40096694B /* XCBuildMessageTextBookmark */ = 611CBFD7113129E40096694B /* XCBuildMessageTextBookmark */;
+			611CBFD8113129E40096694B /* PBXTextBookmark */ = 611CBFD8113129E40096694B /* PBXTextBookmark */;
+			611CBFD9113129E50096694B /* XCBuildMessageTextBookmark */ = 611CBFD9113129E50096694B /* XCBuildMessageTextBookmark */;
+			611CBFDA113129E50096694B /* PBXTextBookmark */ = 611CBFDA113129E50096694B /* PBXTextBookmark */;
+			611CBFDD11312A580096694B /* PBXTextBookmark */ = 611CBFDD11312A580096694B /* PBXTextBookmark */;
+			611CBFE211312AB50096694B /* PBXTextBookmark */ = 611CBFE211312AB50096694B /* PBXTextBookmark */;
+			611CBFE311312AB50096694B /* PBXTextBookmark */ = 611CBFE311312AB50096694B /* PBXTextBookmark */;
+			611CBFE411312AB50096694B /* PBXTextBookmark */ = 611CBFE411312AB50096694B /* PBXTextBookmark */;
+			611CBFEA11312AF50096694B /* PBXTextBookmark */ = 611CBFEA11312AF50096694B /* PBXTextBookmark */;
+			611CBFEB11312AF60096694B /* PBXTextBookmark */ = 611CBFEB11312AF60096694B /* PBXTextBookmark */;
+			611CBFEC11312AF60096694B /* PBXTextBookmark */ = 611CBFEC11312AF60096694B /* PBXTextBookmark */;
+			611CBFED11312AF60096694B /* PBXTextBookmark */ = 611CBFED11312AF60096694B /* PBXTextBookmark */;
+			611CBFEF11312B470096694B /* PBXTextBookmark */ = 611CBFEF11312B470096694B /* PBXTextBookmark */;
+			611CBFF011312B470096694B /* PBXTextBookmark */ = 611CBFF011312B470096694B /* PBXTextBookmark */;
+			611CBFF111312B470096694B /* PBXTextBookmark */ = 611CBFF111312B470096694B /* PBXTextBookmark */;
+			611CBFF411312B9D0096694B /* PBXTextBookmark */ = 611CBFF411312B9D0096694B /* PBXTextBookmark */;
+			611CBFF511312B9D0096694B /* PBXTextBookmark */ = 611CBFF511312B9D0096694B /* PBXTextBookmark */;
+			611CBFF611312B9D0096694B /* PBXTextBookmark */ = 611CBFF611312B9D0096694B /* PBXTextBookmark */;
+			61F3271C112927FE0030F460 = 61F3271C112927FE0030F460 /* PBXTextBookmark */;
+			61F3271E112927FE0030F460 = 61F3271E112927FE0030F460 /* XDModelBookmark */;
+			61F32727112928EF0030F460 = 61F32727112928EF0030F460 /* PBXTextBookmark */;
+			61F32728112928EF0030F460 = 61F32728112928EF0030F460 /* PlistBookmark */;
+			61F3279811293AF60030F460 = 61F3279811293AF60030F460 /* PBXTextBookmark */;
+			61F3279911293AF60030F460 = 61F3279911293AF60030F460 /* PBXTextBookmark */;
+			61F3279D1129C78E0030F460 = 61F3279D1129C78E0030F460 /* PBXTextBookmark */;
+			61F3279E1129C78E0030F460 = 61F3279E1129C78E0030F460 /* PBXTextBookmark */;
+			61F327A31129C78E0030F460 = 61F327A31129C78E0030F460 /* PBXTextBookmark */;
+			61F327B31129C8420030F460 = 61F327B31129C8420030F460 /* PBXTextBookmark */;
+			61F327B41129C8420030F460 = 61F327B41129C8420030F460 /* PBXTextBookmark */;
+			61F327D41129D26D0030F460 = 61F327D41129D26D0030F460 /* PBXTextBookmark */;
+			61F327D51129D26D0030F460 = 61F327D51129D26D0030F460 /* PBXTextBookmark */;
+			61F327D61129D26D0030F460 = 61F327D61129D26D0030F460 /* PBXTextBookmark */;
+			61F327DD1129D9320030F460 = 61F327DD1129D9320030F460 /* PBXTextBookmark */;
+			61F327E61129DF9F0030F460 = 61F327E61129DF9F0030F460 /* PBXTextBookmark */;
+			61F327E71129DF9F0030F460 = 61F327E71129DF9F0030F460 /* PBXTextBookmark */;
+			61F3DFBA1131198900D05266 = 61F3DFBA1131198900D05266 /* PBXTextBookmark */;
+			61F3DFBD1131198900D05266 = 61F3DFBD1131198900D05266 /* PBXTextBookmark */;
+			61F3DFC811311A8500D05266 = 61F3DFC811311A8500D05266 /* PBXTextBookmark */;
+			61F3DFC911311A8500D05266 = 61F3DFC911311A8500D05266 /* PBXTextBookmark */;
+			61F3DFCA11311A8500D05266 = 61F3DFCA11311A8500D05266 /* PBXTextBookmark */;
+			61F3DFCF11311AD300D05266 = 61F3DFCF11311AD300D05266 /* PBXTextBookmark */;
+			61F3DFD011311AEB00D05266 = 61F3DFD011311AEB00D05266 /* PBXTextBookmark */;
+			61F3DFD311311B2600D05266 = 61F3DFD311311B2600D05266 /* PBXTextBookmark */;
+			61F3DFD411311B2600D05266 = 61F3DFD411311B2600D05266 /* PBXTextBookmark */;
+			61F3DFD511311B2600D05266 = 61F3DFD511311B2600D05266 /* PBXTextBookmark */;
+			61F3DFD811311B5C00D05266 = 61F3DFD811311B5C00D05266 /* PBXTextBookmark */;
+			61F3DFDB11311B7000D05266 = 61F3DFDB11311B7000D05266 /* PBXTextBookmark */;
+			61F3DFE011311BFB00D05266 = 61F3DFE011311BFB00D05266 /* PBXTextBookmark */;
+			61F3DFE311311C9400D05266 = 61F3DFE311311C9400D05266 /* PBXTextBookmark */;
+			61F3DFE411311C9400D05266 = 61F3DFE411311C9400D05266 /* PBXTextBookmark */;
+			61F3DFE511311C9400D05266 = 61F3DFE511311C9400D05266 /* PBXTextBookmark */;
+			61F3DFE611311C9400D05266 = 61F3DFE611311C9400D05266 /* PBXTextBookmark */;
+			61F3DFE711311C9400D05266 = 61F3DFE711311C9400D05266 /* PBXTextBookmark */;
+			61F3DFE811311C9400D05266 = 61F3DFE811311C9400D05266 /* PBXTextBookmark */;
+			61F3DFE911311C9400D05266 = 61F3DFE911311C9400D05266 /* PBXTextBookmark */;
+			61F3DFEA11311C9400D05266 = 61F3DFEA11311C9400D05266 /* PBXTextBookmark */;
+			61F3DFEF11311CBD00D05266 = 61F3DFEF11311CBD00D05266 /* PBXTextBookmark */;
+			61F3DFF011311CBD00D05266 = 61F3DFF011311CBD00D05266 /* PBXTextBookmark */;
+			61F3DFF611311DCA00D05266 = 61F3DFF611311DCA00D05266 /* PBXTextBookmark */;
+			61F3DFF811311E2400D05266 = 61F3DFF811311E2400D05266 /* PBXTextBookmark */;
+			61F3DFFB11311E9700D05266 = 61F3DFFB11311E9700D05266 /* PBXTextBookmark */;
+			61F3E00011311ECE00D05266 = 61F3E00011311ECE00D05266 /* PBXTextBookmark */;
+			61F3E00211311EF600D05266 = 61F3E00211311EF600D05266 /* PBXTextBookmark */;
+			61F3E00511311F0E00D05266 = 61F3E00511311F0E00D05266 /* PBXTextBookmark */;
+			61F3E00A1131200F00D05266 = 61F3E00A1131200F00D05266 /* PBXTextBookmark */;
+			61F3E00B1131200F00D05266 = 61F3E00B1131200F00D05266 /* PBXTextBookmark */;
+			61F3E00C1131200F00D05266 = 61F3E00C1131200F00D05266 /* PBXTextBookmark */;
+			61F3E0121131203600D05266 = 61F3E0121131203600D05266 /* PBXTextBookmark */;
+			61F3E0151131207000D05266 = 61F3E0151131207000D05266 /* PBXTextBookmark */;
+			61F3E01A1131208200D05266 = 61F3E01A1131208200D05266 /* PBXTextBookmark */;
+			61F3E0231131210300D05266 = 61F3E0231131210300D05266 /* PBXTextBookmark */;
+			61F3E0271131214500D05266 = 61F3E0271131214500D05266 /* PBXTextBookmark */;
+			61F3E02B1131216C00D05266 = 61F3E02B1131216C00D05266 /* PBXTextBookmark */;
+			61F3E0321131218F00D05266 = 61F3E0321131218F00D05266 /* PBXTextBookmark */;
+			61F3E0331131218F00D05266 = 61F3E0331131218F00D05266 /* PBXTextBookmark */;
+			61F3E069113123CE00D05266 = 61F3E069113123CE00D05266 /* PBXTextBookmark */;
+			61F3E06A113123CE00D05266 = 61F3E06A113123CE00D05266 /* PBXTextBookmark */;
+			61F3E06B113123CE00D05266 = 61F3E06B113123CE00D05266 /* PBXTextBookmark */;
+			61F3E06C113123CE00D05266 = 61F3E06C113123CE00D05266 /* PBXTextBookmark */;
+			61F3E06D113123CE00D05266 = 61F3E06D113123CE00D05266 /* PBXTextBookmark */;
+			61F3E071113124BD00D05266 = 61F3E071113124BD00D05266 /* PBXTextBookmark */;
+			61F3E072113124BD00D05266 = 61F3E072113124BD00D05266 /* PBXTextBookmark */;
+			61F3E073113124BD00D05266 = 61F3E073113124BD00D05266 /* PBXTextBookmark */;
+			61F3E074113124BD00D05266 = 61F3E074113124BD00D05266 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 6122D7B1112878F900435110 /* Source Control */;
 		userBuildSettings = {
@@ -90,17 +195,341 @@
 	};
 	29B97316FDCFA39411CA2CEA /* main.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1059, 563}}";
-			sepNavSelRange = "{0, 0}";
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 558}}";
+			sepNavSelRange = "{102, 0}";
 			sepNavVisRange = "{0, 363}";
 		};
 	};
 	32CA4F630368D1EE00C91783 /* Candy_Picker_Prefix.pch */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1059, 563}}";
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 558}}";
 			sepNavSelRange = "{0, 0}";
 			sepNavVisRange = "{0, 193}";
 		};
+	};
+	611CBFAD113126650096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 901";
+		rLen = 106;
+		rLoc = 46025;
+		rType = 0;
+		vrLen = 2005;
+		vrLoc = 44718;
+	};
+	611CBFBA113126B40096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 901";
+		rLen = 106;
+		rLoc = 46025;
+		rType = 0;
+		vrLen = 1374;
+		vrLoc = 376;
+	};
+	611CBFC0113127EF0096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 33";
+		rLen = 0;
+		rLoc = 802;
+		rType = 0;
+		vrLen = 1024;
+		vrLoc = 97;
+	};
+	611CBFC31131288C0096694B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Invalid operands to binary % (have 'u_int32_t' and 'id')";
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 31;
+		rType = 1;
+	};
+	611CBFC41131288C0096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 32";
+		rLen = 0;
+		rLoc = 631;
+		rType = 0;
+		vrLen = 1077;
+		vrLoc = 97;
+	};
+	611CBFC7113128960096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 32";
+		rLen = 0;
+		rLoc = 701;
+		rType = 0;
+		vrLen = 1055;
+		vrLoc = 97;
+	};
+	611CBFCA113128BA0096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 15";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 1076;
+		vrLoc = 97;
+	};
+	611CBFCC113129B30096694B /* Candy_PickerViewController.m:29 */ = {
+		isa = PBXFileBreakpoint;
+		actions = (
+		);
+		breakpointStyle = 0;
+		continueAfterActions = 0;
+		countType = 0;
+		delayBeforeContinue = 0;
+		fileReference = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		functionName = "-pressedButtonReload:";
+		hitCount = 0;
+		ignoreCount = 0;
+		lineNumber = 29;
+		location = "Candy Picker";
+		modificationTime = 288434904.833567;
+		originalNumberOfMultipleMatches = 1;
+		state = 1;
+	};
+	611CBFD0113129B80096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 39";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 3;
+	};
+	611CBFD1113129B80096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 15";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 97;
+	};
+	611CBFD2113129B80096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 15";
+		rLen = 0;
+		rLoc = 278;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 97;
+	};
+	611CBFD4113129D30096694B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'text' in something not a structure or union";
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 35;
+		rType = 1;
+	};
+	611CBFD5113129D30096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 35";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 397;
+	};
+	611CBFD6113129D30096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 35";
+		rLen = 0;
+		rLoc = 800;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 97;
+	};
+	611CBFD7113129E40096694B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'text' in something not a structure or union";
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 35;
+		rType = 1;
+	};
+	611CBFD8113129E40096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 35";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 644;
+		vrLoc = 397;
+	};
+	611CBFD9113129E50096694B /* XCBuildMessageTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "Request for member 'text' in something not a structure or union";
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		fallbackIsa = XCBuildMessageTextBookmark;
+		rLen = 1;
+		rLoc = 35;
+		rType = 1;
+	};
+	611CBFDA113129E50096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 35";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 1074;
+		vrLoc = 97;
+	};
+	611CBFDD11312A580096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 35";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 969;
+		vrLoc = 97;
+	};
+	611CBFE211312AB50096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 27";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 97;
+	};
+	611CBFE311312AB50096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 39";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 3;
+	};
+	611CBFE411312AB50096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 41";
+		rLen = 0;
+		rLoc = 1151;
+		rType = 0;
+		vrLen = 1383;
+		vrLoc = 3;
+	};
+	611CBFEA11312AF50096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 36";
+		rLen = 0;
+		rLoc = 792;
+		rType = 0;
+		vrLen = 511;
+		vrLoc = 397;
+	};
+	611CBFEB11312AF60096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 29";
+		rLen = 0;
+		rLoc = 684;
+		rType = 0;
+		vrLen = 1362;
+		vrLoc = 155;
+	};
+	611CBFEC11312AF60096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 27";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1088;
+		vrLoc = 97;
+	};
+	611CBFED11312AF60096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 27";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 97;
+	};
+	611CBFEF11312B470096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 26";
+		rLen = 0;
+		rLoc = 517;
+		rType = 0;
+		vrLen = 1005;
+		vrLoc = 97;
+	};
+	611CBFF011312B470096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 29";
+		rLen = 0;
+		rLoc = 684;
+		rType = 0;
+		vrLen = 1361;
+		vrLoc = 155;
+	};
+	611CBFF111312B470096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 29";
+		rLen = 0;
+		rLoc = 684;
+		rType = 0;
+		vrLen = 1361;
+		vrLoc = 155;
+	};
+	611CBFF411312B9D0096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 23";
+		rLen = 0;
+		rLoc = 437;
+		rType = 0;
+		vrLen = 1049;
+		vrLoc = 56;
+	};
+	611CBFF511312B9D0096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 39";
+		rLen = 0;
+		rLoc = 1151;
+		rType = 0;
+		vrLen = 1295;
+		vrLoc = 97;
+	};
+	611CBFF611312B9D0096694B /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 39";
+		rLen = 0;
+		rLoc = 1141;
+		rType = 0;
+		vrLen = 1335;
+		vrLoc = 56;
 	};
 	6122D7AD112878DA00435110 /* Candy Picker */ = {
 		isa = PBXExecutable;
@@ -109,7 +538,7 @@
 		argumentStrings = (
 		);
 		autoAttachOnCrash = 1;
-		breakpointsEnabled = 0;
+		breakpointsEnabled = 1;
 		configStateDict = {
 		};
 		customDataFormattersEnabled = 1;
@@ -126,9 +555,29 @@
 		executableUserSymbolLevel = 0;
 		libgmallocEnabled = 0;
 		name = "Candy Picker";
+		savedGlobals = {
+		};
 		showTypeColumn = 0;
 		sourceDirectories = (
 		);
+		variableFormatDictionary = {
+			$cs = 1;
+			$ds = 1;
+			$eax = 1;
+			$ebp = 1;
+			$ebx = 1;
+			$ecx = 1;
+			$edi = 1;
+			$edx = 1;
+			$eflags = 1;
+			$eip = 1;
+			$es = 1;
+			$esi = 1;
+			$esp = 1;
+			$fs = 1;
+			$gs = 1;
+			$ss = 1;
+		};
 	};
 	6122D7B1112878F900435110 /* Source Control */ = {
 		isa = PBXSourceControlManager;
@@ -144,25 +593,11 @@
 		isa = PBXCodeSenseManager;
 		indexTemplatePath = "";
 	};
-	6122D7C311287D4C00435110 /* Candy.h */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {439, 520}}";
-			sepNavSelRange = "{199, 0}";
-			sepNavVisRange = "{0, 315}";
-		};
-	};
-	6122D7C411287D4C00435110 /* Candy.m */ = {
-		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1059, 563}}";
-			sepNavSelRange = "{372, 0}";
-			sepNavVisRange = "{0, 378}";
-		};
-	};
 	6122D7D81128AD1100435110 /* candy.xcdatamodel */ = {
 		uiCtxt = {
 			"Xdesign Model Editor Bookmark Key" = {
 				UIContextForDetailArea = {
-					_indexOfSelectedPane = 0;
+					_indexOfSelectedPane = 1;
 					_indexOfSelectedView = 0;
 				};
 				UIContextForEntityArea = {
@@ -187,7 +622,7 @@
 					chosenTableWidths = (
 						103.000000,
 						22.000000,
-						89.080078,
+						90.080078,
 					);
 				};
 				UIContextForLayoutManager = {
@@ -197,8 +632,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {729, 220}}",
-							"{{734, 0}, {384, 220}}",
+							"{{0, 0}, {729, 218}}",
+							"{{734, 0}, {384, 218}}",
 						);
 					};
 					diagramSplitGeometry = {
@@ -208,7 +643,7 @@
 						isCollapsed = yes;
 						sizes = (
 							"{{0, 0}, {1118, 220}}",
-							"{{0, 225}, {1118, 353}}",
+							"{{0, 225}, {1118, 348}}",
 						);
 					};
 					tableSplitGeometry = {
@@ -217,8 +652,8 @@
 						_percentageOfCollapsedView = 0;
 						isCollapsed = yes;
 						sizes = (
-							"{{0, 0}, {239, 218}}",
-							"{{244, 0}, {483, 218}}",
+							"{{0, 0}, {240, 218}}",
+							"{{245, 0}, {484, 218}}",
 						);
 					};
 				};
@@ -307,7 +742,7 @@
 					chosenTableWidthsPT = (
 						128.000000,
 						108.110840,
-						220.570801,
+						221.570801,
 					);
 					chosenTableWidthsRT = (
 						128.000000,
@@ -315,23 +750,104 @@
 					);
 				};
 				"xdesign model browser state key - shown/hidden" = 1;
-				"xdesign model diagram view visible rect key" = "{{-228, -1}, {1103, 338}}";
+				"xdesign model diagram view visible rect key" = "{{-228, -1}, {1103, 333}}";
 			};
 			sepNavWindowFrame = "{{63, 810}, {1153, 603}}";
 		};
 	};
-	6122D7F21128B0C800435110 /* PlistBookmark */ = {
+	61F3270D112927980030F460 /* Candy.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 482}}";
+			sepNavSelRange = "{204, 0}";
+			sepNavVisRange = "{0, 758}";
+		};
+	};
+	61F3270E112927980030F460 /* Candy.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 505}}";
+			sepNavSelRange = "{179, 0}";
+			sepNavVisRange = "{0, 373}";
+		};
+	};
+	61F3270F112927980030F460 /* Preferences.h */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 505}}";
+			sepNavSelRange = "{140, 0}";
+			sepNavVisRange = "{0, 672}";
+		};
+	};
+	61F32710112927980030F460 /* Preferences.m */ = {
+		uiCtxt = {
+			sepNavIntBoundsRect = "{{0, 0}, {1059, 505}}";
+			sepNavSelRange = "{115, 0}";
+			sepNavVisRange = "{0, 357}";
+		};
+	};
+	61F3271C112927FE0030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3271D112927FE0030F460 /* CGPDFScanner.h */;
+		name = "CGPDFScanner.h: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 2033;
+		vrLoc = 1787;
+	};
+	61F3271D112927FE0030F460 /* CGPDFScanner.h */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = sourcecode.c.h;
+		name = CGPDFScanner.h;
+		path = /Developer/Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/Headers/CGPDFScanner.h;
+		sourceTree = "<absolute>";
+	};
+	61F3271E112927FE0030F460 /* XDModelBookmark */ = {
+		isa = XDModelBookmark;
+		fRef = 6122D7D81128AD1100435110 /* candy.xcdatamodel */;
+		fallbackIsa = PBXBookmark;
+	};
+	61F32727112928EF0030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
+		name = "main.m: 6";
+		rLen = 0;
+		rLoc = 102;
+		rType = 0;
+		vrLen = 363;
+		vrLoc = 0;
+	};
+	61F32728112928EF0030F460 /* PlistBookmark */ = {
 		isa = PlistBookmark;
 		fRef = 8D1107310486CEB800E47090 /* Candy_Picker-Info.plist */;
 		fallbackIsa = PBXBookmark;
 		isK = 0;
 		kPath = (
+			CFBundleInfoDictionaryVersion,
 		);
-		name = "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_Picker-Info.plist";
+		name = "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_Picker-Info.plist";
 		rLen = 0;
 		rLoc = 9223372036854775808;
 	};
-	6130F1851128E593008E3F50 /* PBXTextBookmark */ = {
+	61F3279811293AF60030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270E112927980030F460 /* Candy.m */;
+		name = "Candy.m: 13";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	61F3279911293AF60030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270F112927980030F460 /* Preferences.h */;
+		name = "Preferences.h: 8";
+		rLen = 0;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 0;
+	};
+	61F3279D1129C78E0030F460 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 32CA4F630368D1EE00C91783 /* Candy_Picker_Prefix.pch */;
 		name = "Candy_Picker_Prefix.pch: 1";
@@ -341,410 +857,599 @@
 		vrLen = 193;
 		vrLoc = 0;
 	};
-	6130F1861128E593008E3F50 /* PBXTextBookmark */ = {
+	61F3279E1129C78E0030F460 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 29B97316FDCFA39411CA2CEA /* main.m */;
-		name = "main.m: 1";
+		fRef = 61F32710112927980030F460 /* Preferences.m */;
+		name = "Preferences.m: 6";
 		rLen = 0;
+		rLoc = 115;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	61F327A21129C78E0030F460 /* candy.code */ = {
+		isa = PBXFileReference;
+		lastKnownFileType = text;
+		name = candy.code;
+		path = /Users/tbelote/Documents/candy.code;
+		sourceTree = "<absolute>";
+	};
+	61F327A31129C78E0030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Candy_PickerAppDelegate.m */;
+		name = "Candy_PickerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 1071;
+		vrLoc = 0;
+	};
+	61F327B31129C8420030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F327A21129C78E0030F460 /* candy.code */;
+		name = "candy.code: 1";
+		rLen = 21352;
 		rLoc = 0;
 		rType = 0;
-		vrLen = 363;
+		vrLen = 962;
 		vrLoc = 0;
 	};
-	6130F2841128F47F008E3F50 /* PBXTextBookmark */ = {
+	61F327B41129C8420030F460 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 6122D7C411287D4C00435110 /* Candy.m */;
-		name = "Candy.m: 22";
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 12";
 		rLen = 0;
-		rLoc = 372;
+		rLoc = 261;
 		rType = 0;
-		vrLen = 378;
-		vrLoc = 0;
+		vrLen = 1284;
+		vrLoc = 53;
 	};
-	6130F2851128F47F008E3F50 /* PBXTextBookmark */ = {
+	61F327D41129D26D0030F460 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
 		name = "Candy_PickerViewController.m: 37";
 		rLen = 0;
-		rLoc = 985;
+		rLoc = 470;
 		rType = 0;
-		vrLen = 1124;
+		vrLen = 1053;
+		vrLoc = 3468;
+	};
+	61F327D51129D26D0030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270D112927980030F460 /* Candy.h */;
+		name = "Candy.h: 16";
+		rLen = 8;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 758;
 		vrLoc = 0;
 	};
-	6130F2861128F47F008E3F50 /* PBXTextBookmark */ = {
+	61F327D61129D26D0030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623240D0F684500981E51 /* Candy_PickerAppDelegate.h */;
+		name = "Candy_PickerAppDelegate.h: 30";
+		rLen = 0;
+		rLoc = 1030;
+		rType = 0;
+		vrLen = 1038;
+		vrLoc = 0;
+	};
+	61F327DD1129D9320030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		comments = "'NSNumber' may not respond to '+numberwithBool:'";
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		rLen = 0;
+		rLoc = 41;
+		rType = 1;
+	};
+	61F327E61129DF9F0030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Candy_PickerAppDelegate.m */;
+		name = "Candy_PickerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 982;
+		vrLoc = 94;
+	};
+	61F327E71129DF9F0030F460 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 41";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1587;
+		vrLoc = 2044;
+	};
+	61F3DFBA1131198900D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Candy_PickerAppDelegate.m */;
+		name = "Candy_PickerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 1026;
+		vrLoc = 50;
+	};
+	61F3DFBD1131198900D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 76";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 997;
+		vrLoc = 0;
+	};
+	61F3DFC811311A8500D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 1D3623250D0F684500981E51 /* Candy_PickerAppDelegate.m */;
+		name = "Candy_PickerAppDelegate.m: 19";
+		rLen = 0;
+		rLoc = 397;
+		rType = 0;
+		vrLen = 1203;
+		vrLoc = 50;
+	};
+	61F3DFC911311A8500D05266 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
 		name = "Candy_PickerViewController.h: 12";
-		rLen = 18;
-		rLoc = 253;
+		rLen = 0;
+		rLoc = 261;
 		rType = 0;
-		vrLen = 1184;
+		vrLen = 1294;
+		vrLoc = 97;
+	};
+	61F3DFCA11311A8500D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 27";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1592;
+		vrLoc = 196;
+	};
+	61F3DFCF11311AD300D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1512;
+		vrLoc = 196;
+	};
+	61F3DFD011311AEB00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 196;
+	};
+	61F3DFD311311B2600D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270D112927980030F460 /* Candy.h */;
+		name = "Candy.h: 16";
+		rLen = 8;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 758;
 		vrLoc = 0;
 	};
-	6130F2871128F47F008E3F50 /* PBXTextBookmark */ = {
+	61F3DFD411311B2600D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1612;
+		vrLoc = 196;
+	};
+	61F3DFD511311B2600D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1274;
+		vrLoc = 53;
+	};
+	61F3DFD811311B5C00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 20";
+		rLen = 0;
+		rLoc = 416;
+		rType = 0;
+		vrLen = 1081;
+		vrLoc = 3;
+	};
+	61F3DFDB11311B7000D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1122;
+		vrLoc = 53;
+	};
+	61F3DFE011311BFB00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 27";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 195;
+	};
+	61F3DFE311311C9400D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270D112927980030F460 /* Candy.h */;
+		name = "Candy.h: 16";
+		rLen = 8;
+		rLoc = 240;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 0;
+	};
+	61F3DFE411311C9400D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270E112927980030F460 /* Candy.m */;
+		name = "Candy.m: 13";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 373;
+		vrLoc = 0;
+	};
+	61F3DFE511311C9400D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F32710112927980030F460 /* Preferences.m */;
+		name = "Preferences.m: 6";
+		rLen = 0;
+		rLoc = 115;
+		rType = 0;
+		vrLen = 357;
+		vrLoc = 0;
+	};
+	61F3DFE611311C9400D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270F112927980030F460 /* Preferences.h */;
+		name = "Preferences.h: 8";
+		rLen = 0;
+		rLoc = 140;
+		rType = 0;
+		vrLen = 672;
+		vrLoc = 0;
+	};
+	61F3DFE711311C9400D05266 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623240D0F684500981E51 /* Candy_PickerAppDelegate.h */;
-		name = "Candy_PickerAppDelegate.h: 16";
+		name = "Candy_PickerAppDelegate.h: 30";
 		rLen = 0;
-		rLoc = 357;
+		rLoc = 1030;
 		rType = 0;
-		vrLen = 506;
+		vrLen = 1038;
 		vrLoc = 0;
 	};
-	6130F2881128F47F008E3F50 /* PBXTextBookmark */ = {
+	61F3DFE811311C9400D05266 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 1D3623250D0F684500981E51 /* Candy_PickerAppDelegate.m */;
-		name = "Candy_PickerAppDelegate.m: 1";
+		name = "Candy_PickerAppDelegate.m: 19";
 		rLen = 0;
-		rLoc = 0;
+		rLoc = 397;
 		rType = 0;
-		vrLen = 640;
-		vrLoc = 0;
+		vrLen = 992;
+		vrLoc = 50;
 	};
-	6130F2891128F47F008E3F50 /* PBXTextBookmark */ = {
+	61F3DFE911311C9400D05266 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
-		fRef = 6122D7C311287D4C00435110 /* Candy.h */;
-		name = "Candy.h: 38";
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 27";
 		rLen = 0;
-		rLoc = 808;
+		rLoc = 470;
 		rType = 0;
-		vrLen = 808;
+		vrLen = 1402;
+		vrLoc = 195;
+	};
+	61F3DFEA11311C9400D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1309;
+		vrLoc = 196;
+	};
+	61F3DFEF11311CBD00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1309;
+		vrLoc = 196;
+	};
+	61F3DFF011311CBD00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 28";
+		rLen = 0;
+		rLoc = 470;
+		rType = 0;
+		vrLen = 1380;
+		vrLoc = 240;
+	};
+	61F3DFF611311DCA00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 27";
+		rLen = 0;
+		rLoc = 638;
+		rType = 0;
+		vrLen = 1553;
+		vrLoc = 376;
+	};
+	61F3DFF811311E2400D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 38";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1606;
+		vrLoc = 417;
+	};
+	61F3DFFB11311E9700D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 38";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1640;
+		vrLoc = 437;
+	};
+	61F3E00011311ECE00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 51";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1677;
+		vrLoc = 497;
+	};
+	61F3E00211311EF600D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 38";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1684;
+		vrLoc = 497;
+	};
+	61F3E00511311F0E00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 38";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1719;
+		vrLoc = 546;
+	};
+	61F3E00A1131200F00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 12";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 97;
+	};
+	61F3E00B1131200F00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 38";
+		rLen = 0;
+		rLoc = 1075;
+		rType = 0;
+		vrLen = 1297;
+		vrLoc = 156;
+	};
+	61F3E00C1131200F00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 45";
+		rLen = 0;
+		rLoc = 1217;
+		rType = 0;
+		vrLen = 1522;
+		vrLoc = 931;
+	};
+	61F3E0121131203600D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 45";
+		rLen = 0;
+		rLoc = 1217;
+		rType = 0;
+		vrLen = 944;
+		vrLoc = 196;
+	};
+	61F3E0151131207000D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 913";
+		rLen = 0;
+		rLoc = 47610;
+		rType = 0;
+		vrLen = 1531;
+		vrLoc = 39762;
+	};
+	61F3E01A1131208200D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 914";
+		rLen = 0;
+		rLoc = 47610;
+		rType = 0;
+		vrLen = 1498;
+		vrLoc = 39857;
+	};
+	61F3E0231131210300D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 899";
+		rLen = 0;
+		rLoc = 1082;
+		rType = 0;
+		vrLen = 1229;
+		vrLoc = 39725;
+	};
+	61F3E0271131214500D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 51";
+		rLen = 0;
+		rLoc = 47610;
+		rType = 0;
+		vrLen = 965;
+		vrLoc = 355;
+	};
+	61F3E02B1131216C00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 52";
+		rLen = 0;
+		rLoc = 1409;
+		rType = 0;
+		vrLen = 1218;
+		vrLoc = 546;
+	};
+	61F3E0321131218F00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 55";
+		rLen = 0;
+		rLoc = 1480;
+		rType = 0;
+		vrLen = 1313;
+		vrLoc = 546;
+	};
+	61F3E0331131218F00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 55";
+		rLen = 0;
+		rLoc = 1480;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 613;
+	};
+	61F3E069113123CE00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270E112927980030F460 /* Candy.m */;
+		name = "Candy.m: 13";
+		rLen = 0;
+		rLoc = 179;
+		rType = 0;
+		vrLen = 373;
 		vrLoc = 0;
 	};
-	6130F28A1128F47F008E3F50 /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 6122D7D81128AD1100435110 /* candy.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 0;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					YES,
-					YES,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-					isAbstract,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-					"compare:",
-				);
-				chosenTableWidths = (
-					103.000000,
-					22.000000,
-					89.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {729, 220}}",
-						"{{734, 0}, {384, 220}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1118, 220}}",
-						"{{0, 225}, {1118, 353}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {239, 218}}",
-						"{{244, 0}, {483, 218}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					220.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{-228, -1}, {1103, 338}}";
-			"xdesign model selected entities key" = (
-				"<XDPMEntity: 0x200b40300>{name=Preferences, package=}",
-			);
-			"xdesign model selected properties key" = (
-				"<XDPMAttribute: 0x200bad6a0>{name=dark, type=(null)}",
-			);
-		};
+	61F3E06A113123CE00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270D112927980030F460 /* Candy.h */;
+		name = "Candy.h: 12";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 0;
 	};
-	6130F28B1128F47F008E3F50 /* XDModelBookmark */ = {
-		isa = XDModelBookmark;
-		fRef = 6122D7D81128AD1100435110 /* candy.xcdatamodel */;
-		fallbackIsa = PBXBookmark;
-		uiCtxt = {
-			UIContextForDetailArea = {
-				_indexOfSelectedPane = 0;
-				_indexOfSelectedView = 0;
-			};
-			UIContextForEntityArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnns = (
-					"ET Entity",
-					"ET Abstract",
-					"ET Class",
-				);
-				chosenTableColumnns_sortDirections = (
-					YES,
-					YES,
-				);
-				chosenTableColumnns_sortKeys = (
-					name,
-					isAbstract,
-				);
-				chosenTableColumnns_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-					"compare:",
-				);
-				chosenTableWidths = (
-					103.000000,
-					22.000000,
-					89.080078,
-				);
-			};
-			UIContextForLayoutManager = {
-				detailSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {729, 220}}",
-						"{{734, 0}, {384, 220}}",
-					);
-				};
-				diagramSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {1118, 220}}",
-						"{{0, 225}, {1118, 353}}",
-					);
-				};
-				tableSplitGeometry = {
-					_collapsingFrameDimension = 0;
-					_indexOfCollapsedView = 0;
-					_percentageOfCollapsedView = 0;
-					isCollapsed = yes;
-					sizes = (
-						"{{0, 0}, {239, 218}}",
-						"{{244, 0}, {483, 218}}",
-					);
-				};
-			};
-			UIContextForPropertyArea = {
-				_indexOfSelectedView = 0;
-				chosenTableColumnnFRTs = (
-					"FT Fetch Request",
-					"FT Predicate",
-				);
-				chosenTableColumnnFRTs_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnFRTs_sortKeys = (
-					name,
-				);
-				chosenTableColumnnFRTs_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsAT = (
-					"AT Attribute",
-					"AT Type",
-				);
-				chosenTableColumnnsAT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsAT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsAT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsFPT = (
-					"FP FetchedProperty",
-					"FP Destination",
-					"FP Predicate",
-				);
-				chosenTableColumnnsFPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsFPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsFPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsPT = (
-					"PT Property",
-					"PT Kind",
-					"PT SharedKeyOne",
-				);
-				chosenTableColumnnsPT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsPT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsPT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableColumnnsRT = (
-					"RT Relationship",
-					"RT Destination",
-				);
-				chosenTableColumnnsRT_sortDirections = (
-					YES,
-				);
-				chosenTableColumnnsRT_sortKeys = (
-					name,
-				);
-				chosenTableColumnnsRT_sortSelectors = (
-					"_xdcaseInsensitiveNumericCompare:",
-				);
-				chosenTableWidthsAT = (
-					128.000000,
-					64.000000,
-				);
-				chosenTableWidthsFPT = (
-					128.000000,
-					64.000000,
-					144.764160,
-				);
-				chosenTableWidthsFRT = (
-					128.000000,
-					249.764160,
-				);
-				chosenTableWidthsPT = (
-					128.000000,
-					108.110840,
-					220.570801,
-				);
-				chosenTableWidthsRT = (
-					128.000000,
-					64.000000,
-				);
-			};
-			"xdesign model browser state key - shown/hidden" = 1;
-			"xdesign model diagram view visible rect key" = "{{-228, -1}, {1103, 338}}";
-			"xdesign model selected entities key" = (
-				"<XDPMEntity: 0x200b40300>{name=Preferences, package=}",
-			);
-			"xdesign model selected properties key" = (
-				"<XDPMAttribute: 0x200bad6a0>{name=dark, type=(null)}",
-			);
-		};
+	61F3E06B113123CE00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 12";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 1287;
+		vrLoc = 97;
+	};
+	61F3E06C113123CE00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 55";
+		rLen = 0;
+		rLoc = 1480;
+		rType = 0;
+		vrLen = 1246;
+		vrLoc = 613;
+	};
+	61F3E06D113123CE00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 51";
+		rLen = 0;
+		rLoc = 1407;
+		rType = 0;
+		vrLen = 1759;
+		vrLoc = 1045;
+	};
+	61F3E071113124BD00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 61F3270D112927980030F460 /* Candy.h */;
+		name = "Candy.h: 12";
+		rLen = 0;
+		rLoc = 204;
+		rType = 0;
+		vrLen = 758;
+		vrLoc = 0;
+	};
+	61F3E072113124BD00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF60DDB3853001CB0EB /* Candy_PickerViewController.h */;
+		name = "Candy_PickerViewController.h: 12";
+		rLen = 0;
+		rLoc = 261;
+		rType = 0;
+		vrLen = 1240;
+		vrLoc = 97;
+	};
+	61F3E073113124BD00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 51";
+		rLen = 0;
+		rLoc = 1407;
+		rType = 0;
+		vrLen = 1759;
+		vrLoc = 1045;
+	};
+	61F3E074113124BD00D05266 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 28D7ACF70DDB3853001CB0EB /* Candy_PickerViewController.m */;
+		name = "Candy_PickerViewController.m: 56";
+		rLen = 0;
+		rLoc = 1641;
+		rType = 0;
+		vrLen = 1849;
+		vrLoc = 1046;
 	};
 }

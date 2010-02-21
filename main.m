@@ -3,7 +3,7 @@
 //  Candy Picker
 //
 //  Created by Thomas Belote on 2/14/10.
-//  Copyright KinKast, Inc. 2010. All rights reserved.
+//  Copyright Thomas Belote 2010. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
