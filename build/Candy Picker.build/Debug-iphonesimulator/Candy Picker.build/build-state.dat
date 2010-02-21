@@ -1,702 +1,0 @@
-TCandy Picker
-v7
-r0
-t288435260.972129
-cCheck dependencies
-cProcessInfoPlistFile "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist" Candy_Picker-Info.plist
-cCompileXIB "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/MainWindow.xib"
-cCompileXIB "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_PickerViewController.xib"
-cProcessPCH /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch.gch Candy_Picker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-cDataModelCompile "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/candy.xcdatamodel"
-cCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-D91E2149ACF79220.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-cLd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker" normal i386
-cGenerateDSYMFile "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker"
-cTouch "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app"
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk
-c000000004B0B8AED00000000000000EE
-t1259047661
-s238
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreData.framework/CoreData
-c000000004ABDC9B10000000000185440
-t1253951921
-s1594432
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreData.framework/Headers/CoreData.h
-c000000004ABDC9A7000000000000046B
-t1253951911
-s1131
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/CoreGraphics.framework/CoreGraphics
-c000000004ABDC853000000000026EE30
-t1253951571
-s2551344
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Foundation
-c000000004ABDC952000000000027E880
-t1253951826
-s2615424
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
-c000000004ABDC93F0000000000001355
-t1253951807
-s4949
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSArray.h
-c000000004ABDC93F00000000000011E4
-t1253951807
-s4580
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/Foundation.framework/Headers/NSString.h
-c000000004ABDC942000000000000576E
-t1253951810
-s22382
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/Headers/UIKit.h
-c000000004ABDEE1D0000000000000788
-t1253961245
-s1928
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/System/Library/Frameworks/UIKit.framework/UIKit
-c000000004ABDEEE200000000016721E0
-t1253961442
-s23536096
-
-N/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk/usr/include/stdlib.h
-c000000004748A1330000000000002A79
-t1195942195
-s10873
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_PickerViewController.xib
-c000000004B784A11000000000000A3A4
-t1266174481
-s41892
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_Picker_Prefix.pch
-c000000004B78415A00000000000000C1
-t1266172250
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.h
-c000000004B78B96D0000000000000328
-t1266202989
-s808
-i<Foundation/Foundation.h>
-i<CoreData/CoreData.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m
-c000000004B787936000000000000017A
-t1266186550
-s378
-i"Candy.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerAppDelegate.h
-c000000004B78415A00000000000001FA
-t1266172250
-s506
-i<UIKit/UIKit.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerAppDelegate.m
-c000000004B78415A0000000000000280
-t1266172250
-s640
-i"Candy_PickerAppDelegate.h"
-i"Candy_PickerViewController.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerViewController.h
-c000000004B7874FF00000000000004A0
-t1266185471
-s1184
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerViewController.m
-c000000004B7880A10000000000000786
-t1266188449
-s1926
-i"Candy_PickerViewController.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/MainWindow.xib
-c000000004B78415A0000000000002485
-t1266172250
-s9349
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy Picker.LinkFileList
-c000000004B787876000000000000027F
-t1266186358
-s639
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-2266572BFA780E21.o
-t1266202842
-s16256
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy.o
-t1266174463
-s11560
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o
-t1266186358
-s40028
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o
-t1266188453
-s43976
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o
-t1266172502
-s5984
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app
-t1266202874
-s272
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM
-t1266202842
-s102
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker
-t1266202842
-s25424
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy_PickerViewController.nib
-t1266174484
-s6211
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist
-t1266172501
-s584
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/MainWindow.nib
-t1266172501
-s1505
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/PkgInfo
-t1266172501
-s8
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom
-t1266202874
-s3379
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/candy.xcdatamodel
-c000000004B78B85A0000000000000088
-t1266202714
-s136
-
-N/Volumes/tbelote/Documents/iphone apps/Candy Picker/main.m
-c000000004B78415A000000000000016B
-t1266172250
-s363
-i<UIKit/UIKit.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy.h
-c000000004B799AD300000000000002F6
-t1266260691
-s758
-i<CoreData/CoreData.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy.m
-c000000004B78F0180000000000000175
-t1266216984
-s373
-i"Candy.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_PickerViewController.xib
-c000000004B80F485000000000000ABAA
-t1266742405
-s43946
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_Picker_Prefix.pch
-c000000004B78415A00000000000000C1
-t1266172250
-s193
-i<Foundation/Foundation.h>
-i<UIKit/UIKit.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m
-c000000004B78F0760000000000000175
-t1266217078
-s373
-i"Candy.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m
-c000000004B78F0710000000000000165
-t1266217073
-s357
-i"Preferences.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy.h
-c000000004B78B96D0000000000000328
-t1266202989
-s808
-i<Foundation/Foundation.h>
-i<CoreData/CoreData.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy.m
-c000000004B787936000000000000017A
-t1266186550
-s378
-i"Candy.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.h
-c000000004B78C50B000000000000040E
-t1266205963
-s1038
-i<UIKit/UIKit.h>
-i<CoreData/CoreData.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.m
-c000000004B78C5970000000000000D7A
-t1266206103
-s3450
-i"Candy_PickerAppDelegate.h"
-i"Candy_PickerViewController.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.h
-c000000004B80F417000000000000056F
-t1266742295
-s1391
-i<UIKit/UIKit.h>
-i<Foundation/Foundation.h>
-i<CoreData/CoreData.h>
-i"Candy.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.m
-c000000004B80F3BF000000000000BA01
-t1266742207
-s47617
-i"Candy_PickerViewController.h"
-i<stdlib.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/MainWindow.xib
-c000000004B78415A0000000000002485
-t1266172250
-s9349
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Preferences.h
-c000000004B78F07800000000000002A0
-t1266217080
-s672
-i<CoreData/CoreData.h>
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Preferences.m
-c000000004B78F0180000000000000165
-t1266216984
-s357
-i"Preferences.h"
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy Picker.LinkFileList
-c000000004B78F07D0000000000000317
-t1266217085
-s791
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-2266572BFA780E21.o
-t1266202842
-s16256
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-C2D164CB1425CA2C.o
-t1266205738
-s5416
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-D91E2149ACF79220.o
-t1266262439
-s5452
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o
-t1266742331
-s48388
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o
-t1266742331
-s163160
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences-B3D4231F7715EA2E.o
-t2
-s0
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences-F061DC2F47A6530C.o
-t2
-s0
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences.o
-t1266217085
-s5400
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o
-t1266205738
-s5984
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app
-t1266742408
-s272
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM
-t1266742331
-s102
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker
-t1266742331
-s87752
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy_PickerViewController.nib
-t1266742408
-s6236
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist
-t1266205738
-s582
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/MainWindow.nib
-t1266172501
-s1505
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/PkgInfo
-t1266205738
-s8
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom
-t1266216952
-s3892
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/candy.xcdatamodel
-c000000004B78EFEF0000000000000088
-t1266216943
-s136
-
-N/Volumes/tbelote/Documents/iphone apps/Candy-Picker/main.m
-c000000004B78C42A000000000000016B
-t1266205738
-s363
-i<UIKit/UIKit.h>
-
-N/var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch.gch
-t1266205320
-s13034960
-
-N/var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch.gch
-t1266172502
-s13034960
-
-NCandy_Picker-Info.plist
-c000000004B78C42A000000000000038B
-t1266205738
-s907
-
-CCheck dependencies
-r0
-lSLF07#2@18"Check dependencies288435260#288435260#0(0"0(0#1#0"4300885448#0"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-2266572BFA780E21.o" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287895642.337592
-e287895642.411785
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-2266572BFA780E21.o
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m287895642#287895642#0(0"0(0#0#67"/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m4300885448#2213"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-2266572BFA780E21.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-2266572BFA780E21.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-C2D164CB1425CA2C.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-C2D164CB1425CA2C.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287898538.640428
-e287898538.711445
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-C2D164CB1425CA2C.o
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m287898538#287898538#0(0"0(0#0#70"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m4300885448#2216"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-C2D164CB1425CA2C.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-D91E2149ACF79220.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-D91E2149ACF79220.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287955239.947441
-e287955239.992023
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-D91E2149ACF79220.o
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@78"Compile /Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m287955239#287955239#0(0"0(0#0#70"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m4300885448#2216"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Candy.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy-D91E2149ACF79220.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy.o" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287867263.411440
-e287867263.486716
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy.o
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@75"Compile /Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m287867263#287867263#0(0"0(0#0#67"/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m4300885448#2196"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287879158.136748
-e287879158.219454
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerAppDelegate.m287879158#287879158#0(0"0(0#0#85"/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerAppDelegate.m4300885448#2232"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerAppDelegate.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288435131.527299
-e288435131.587093
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@93"Compile /Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.m288435131#288435131#0(0"0(0#0#85"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.m4300885448#2232"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerAppDelegate.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerAppDelegate.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287881253.475429
-e287881253.562112
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerViewController.m287881253#287881253#0(0"0(0#0#88"/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerViewController.m4300885448#2238"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Classes/Candy_PickerViewController.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s288435131.528071
-e288435131.766857
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@96"Compile /Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.m288435131#288435131#0(0"0(0#0#88"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.m4300885448#2238"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/Candy_PickerViewController.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy_PickerViewController.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences-B3D4231F7715EA2E.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences-F061DC2F47A6530C.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences-F061DC2F47A6530C.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Preferences.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287909885.814466
-e287909885.868678
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences.o
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@84"Compile /Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m287909885#287909885#0(0"0(0#0#76"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m4300885448#2211"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Classes/../Preferences.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Preferences.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Preferences.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-r0
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287865302.063632
-e287865302.099697
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Volumes/tbelote/Documents/iphone apps/Candy Picker/main.m287865302#287865302#0(0"0(0#0#58"/Volumes/tbelote/Documents/iphone apps/Candy Picker/main.m4300885448#2186"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy Picker/main.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o"0#
-
-CCompileC "build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/main.m" normal i386 objective-c com.apple.compilers.gcc.4_2
-s287898538.595654
-e287898538.700732
-r1
-xCompileC
-xbuild/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/main.m
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@66"Compile /Volumes/tbelote/Documents/iphone apps/Candy-Picker/main.m287898538#287898538#0(0"0(0#0#58"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/main.m4300885448#2186"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -include /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/main.m" -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/main.o"0#
-
-CCompileXIB "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_PickerViewController.xib"
-s287867284.415161
-e287867284.781974
-r1
-xCompileXIB
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_PickerViewController.xib
-lSLF07#2@41"CompileXIB Candy_PickerViewController.xib287867284#287867284#0(0"0(0#0#82"/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_PickerViewController.xib4300885448#626"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy_PickerViewController.nib" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_PickerViewController.xib"0#
-
-CCompileXIB "/Volumes/tbelote/Documents/iphone apps/Candy Picker/MainWindow.xib"
-s287865301.288041
-e287865301.508648
-r1
-xCompileXIB
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/MainWindow.xib
-lSLF07#2@25"CompileXIB MainWindow.xib287865301#287865301#0(0"0(0#0#66"/Volumes/tbelote/Documents/iphone apps/Candy Picker/MainWindow.xib4300885448#594"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/MainWindow.nib" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/MainWindow.xib"0#
-
-CCompileXIB "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_PickerViewController.xib"
-s288435208.647938
-e288435208.995096
-r1
-xCompileXIB
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_PickerViewController.xib
-lSLF07#2@41"CompileXIB Candy_PickerViewController.xib288435208#288435208#0(0"0(0#0#82"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_PickerViewController.xib4300885448#626"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv IBC_MINIMUM_COMPATIBILITY_VERSION 3.1.2    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/ibtool --errors --warnings --notices --output-format human-readable-text --compile "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy_PickerViewController.nib" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_PickerViewController.xib"0#
-
-CCompileXIB "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/MainWindow.xib"
-r0
-
-CDataModelCompile "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/candy.xcdatamodel"
-s287895674.704550
-e287895674.734726
-r1
-xDataModelCompile
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/candy.xcdatamodel
-lSLF07#2@77"Compile /Volumes/tbelote/Documents/iphone apps/Candy Picker/candy.xcdatamodel287895674#287895674#0(0"0(0#0#69"/Volumes/tbelote/Documents/iphone apps/Candy Picker/candy.xcdatamodel4300885448#492"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 "/Volumes/tbelote/Documents/iphone apps/Candy Picker/candy.xcdatamodel" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom"0#
-
-CDataModelCompile "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/candy.xcdatamodel"
-s287909752.505427
-e287909752.608286
-r1
-xDataModelCompile
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/candy.xcdatamodel
-lSLF07#2@77"Compile /Volumes/tbelote/Documents/iphone apps/Candy-Picker/candy.xcdatamodel287909752#287909752#0(0"0(0#0#69"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/candy.xcdatamodel3276760629129719808#492"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/momc -XD_MOMC_TARGET_VERSION=10.5 "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/candy.xcdatamodel" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/candy.mom"0#
-
-CGenerateDSYMFile "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM" "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker"
-s287895642.631902
-e287895642.664863
-r1
-xGenerateDSYMFile
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker
-lSLF07#2@128"GenerateDSYMFile "build/Debug-iphonesimulator/Candy Picker.app.dSYM" "build/Debug-iphonesimulator/Candy Picker.app/Candy Picker"287895642#287895642#0(0"0(0#0#109"/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker4300885448#505"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker" -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM"0#
-
-CGenerateDSYMFile "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM" "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker"
-s288435131.794344
-e288435131.810726
-r1
-xGenerateDSYMFile
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker
-lSLF07#2@128"GenerateDSYMFile "build/Debug-iphonesimulator/Candy Picker.app.dSYM" "build/Debug-iphonesimulator/Candy Picker.app/Candy Picker"288435131#288435131#0(0"0(0#0#109"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker4300885448#505"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/usr/bin/dsymutil "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker" -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app.dSYM"0#
-
-CLd "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker" normal i386
-s287895642.411871
-e287895642.631825
-r1
-xLd
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker
-xnormal
-xi386
-lSLF07#2@114"Link /Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker287895642#287895642#0(0"0(0#0#0"4300885448#1046"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" "-F/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" -filelist "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy Picker.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker"0#
-
-CLd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker" normal i386
-s288435131.766935
-e288435131.794263
-r1
-xLd
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker
-xnormal
-xi386
-lSLF07#2@114"Link /Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker288435131#288435131#0(0"0(0#0#0"4300885448#1046"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv MACOSX_DEPLOYMENT_TARGET 10.5    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -arch i386 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk "-L/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" -filelist "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Objects-normal/i386/Candy Picker.LinkFileList" -mmacosx-version-min=10.5 -framework Foundation -framework UIKit -framework CoreGraphics -framework CoreData -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Candy Picker"0#
-
-CProcessInfoPlistFile "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist" Candy_Picker-Info.plist
-s287865301.285285
-e287865301.287978
-r1
-xProcessInfoPlistFile
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist
-xCandy_Picker-Info.plist
-lSLF07#2@31"Process Candy_Picker-Info.plist287865301#287865301#0(0"0(0#0#75"/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_Picker-Info.plist4300885448#601"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Candy_Picker-Info.plist -genpkginfo "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist"0#
-
-CProcessInfoPlistFile "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist" Candy_Picker-Info.plist
-s287898538.592683
-e287898538.595345
-r1
-xProcessInfoPlistFile
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist
-xCandy_Picker-Info.plist
-lSLF07#2@31"Process Candy_Picker-Info.plist287898538#287898538#0(0"0(0#0#75"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_Picker-Info.plist4300885448#601"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    builtin-infoPlistUtility Candy_Picker-Info.plist -genpkginfo "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/PkgInfo" -expandbuildsettings -format binary -platform iphonesimulator -o "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app/Info.plist"0#
-
-CProcessPCH /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch.gch Candy_Picker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s287898120.554624
-e287898121.019082
-r1
-xProcessPCH
-x/var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch.gch
-xCandy_Picker_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile Candy_Picker_Prefix.pch287898120#287898121#0(0"0(0#0#75"/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_Picker_Prefix.pch7594869363256030208#2058"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/Candy_Picker_Prefix.pch" -o /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-enmjgodgozhszpajmcnlkbihfrnm/Candy_Picker_Prefix.pch.gch0#
-
-CProcessPCH /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch.gch Candy_Picker_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_2
-s287865301.642836
-e287865302.063552
-r1
-xProcessPCH
-x/var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch.gch
-xCandy_Picker_Prefix.pch
-xnormal
-xi386
-xobjective-c
-xcom.apple.compilers.gcc.4_2
-lSLF07#2@34"Precompile Candy_Picker_Prefix.pch287865301#287865302#0(0"0(0#0#75"/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_Picker_Prefix.pch4300885448#2058"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv LANG en_US.US-ASCII    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin/gcc-4.2 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -std=c99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -D__IPHONE_OS_VERSION_MIN_REQUIRED=30000 -isysroot /Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator3.1.2.sdk -fvisibility=hidden -mmacosx-version-min=10.5 -gdwarf-2 -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-generated-files.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-own-target-headers.hmap" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-all-target-headers.hmap" -iquote "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/Candy Picker-project-headers.hmap" "-F/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/include" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources/i386" "-I/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Candy Picker.build/Debug-iphonesimulator/Candy Picker.build/DerivedSources" -c "/Volumes/tbelote/Documents/iphone apps/Candy Picker/Candy_Picker_Prefix.pch" -o /var/folders/ed/edGq8B82GieOhZXl2H15ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/Candy_Picker_Prefix-fwlaqytjesfxomcqlqszssyhkbss/Candy_Picker_Prefix.pch.gch0#
-
-CTouch "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app"
-s287895642.664925
-e287895642.666792
-r1
-xTouch
-x/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app
-lSLF07#2@102"Touch /Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app287895642#287895642#0(0"0(0#0#0"4300885448#375"    cd "/Volumes/tbelote/Documents/iphone apps/Candy Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Volumes/tbelote/Documents/iphone apps/Candy Picker/build/Debug-iphonesimulator/Candy Picker.app"0#
-
-CTouch "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app"
-s288435208.995844
-e288435208.997856
-r1
-xTouch
-x/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app
-lSLF07#2@102"Touch /Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app288435208#288435208#0(0"0(0#0#0"4300885448#375"    cd "/Volumes/tbelote/Documents/iphone apps/Candy-Picker"    setenv PATH "/Developer/Platforms/iPhoneSimulator.platform/Developer/usr/bin:/Developer/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/usr/local/bin:/usr/X11/bin:/opt/local/bin:/usr/local/git/bin"    /usr/bin/touch -c "/Volumes/tbelote/Documents/iphone apps/Candy-Picker/build/Debug-iphonesimulator/Candy Picker.app"0#
-
