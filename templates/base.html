@@ -1,0 +1,29 @@
+{% if not request.is_ajax %}<!doctype html><html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<meta http-equiv="content-script-type" content="application/javascript" />
+<meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0;" name="viewport"/>
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="apple-mobile-web-app-status-bar-style" content="default" />
+<title>{% block title %}Candy Picker{% endblock %}</title>
+<link rel="stylesheet" href="/m/jqtouch/jqtouch/jqtouch.min.css" TYPE="text/css" />
+<link rel="stylesheet" href="/m/jqtouch/themes/jqt/theme.min.css" TYPE="text/css" />
+<link rel="stylesheet" href="/m/css/iphone.css" TYPE="text/css" />
+{% block css %}{% endblock %}
+<script type="text/javascript" src="/m/jqtouch/jqtouch/jquery.1.3.2.min.js"></script>
+<script type="text/javascript" src="/m/jqtouch/jqtouch/jqtouch.min.js"></script>
+</head>
+<body>
+<div id="home" class="current">
+{% block header %}<div class="toolbar"><h1>Candy Picker</h1></div>
+{% endblock %}
+{% block contentheader %}<div id="content">{% endblock %}
+{% endif %}
+{% block content %}{% endblock %}
+{% block javascript %}
+{% endblock %}
+{% if not request.is_ajax %}
+{% block contentfooter %}</div>{% endblock %}
+</div>
+{% block footer %}{% endblock %}
+</body></html>{% endif %}

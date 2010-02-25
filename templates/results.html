@@ -1,0 +1,18 @@
+{% extends "base.html" %}
+{% block content %}
+<script type="text/javascript">
+$.jQTouch({
+icon: '/m/images/icon.png',
+startupScreen: '/m/images/startup.png'
+});
+</script>
+<ul class="edgetoedge">
+{% for i in candies %}
+<li>{{i.name}}</li>
+{% endfor %}
+</ul>
+<ul class="individual">
+	<li><a href="/">Preferences</li>
+	<li><a href="/results">Pick Again</a></li>
+</ul>
+{% endblock %}
