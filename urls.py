@@ -9,6 +9,8 @@ import settings
 urlpatterns = patterns('',
     (r'^m/(?P<path>.*)$', 'django.views.static.serve',
      {'document_root': os.path.join(settings.PROJECT_PATH, "media") }),
+     (r'^(?P<path>favicon.ico)$', 'django.views.static.serve',
+         {'document_root': os.path.join(settings.PROJECT_PATH, "media") }),
     (r'^/?$',picker.views.index),
     (r'^results/?$',picker.views.results),
     # Example:
