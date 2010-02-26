@@ -1,0 +1,31 @@
+{% extends "base.html" %}
+{% block content %}
+<script type="text/javascript">
+$.jQTouch({
+icon: '/m/images/icon.png',
+startupScreen: '/m/images/startup.png'
+});
+</script>
+<div id="home" class="current">
+<div class="toolbar"><h1>Candy Picker</h1></div>
+	<h2>Preferences</h2>
+	<h2>...</h2>
+	<ul class="rounded">
+		<li class="arrow"><a href="#results" onClick="$.ajax({url:'/results',success:function(data){$('#resultslist').html(data);}});return true;">Pick some candy!</a></li>
+	</ul>
+</div>
+<div id="results" class="current">
+<div class="toolbar"><h1>Candy Picker</h1></div>
+	<h2>Results</h2>
+	
+	<ul class="edgetoedge" id="resultslist">
+	{% for i in candies %}
+	<li>{{i.name}}</li>
+	{% endfor %}
+	</ul>
+	<ul class="rounded">
+	<li class="arrow"><a href="#home">Preferences</a></li>
+	</ul>
+</div>
+
+{% endblock %}
