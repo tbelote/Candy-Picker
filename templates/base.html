@@ -14,16 +14,8 @@
 <script type="text/javascript" src="/m/jqtouch/jqtouch/jqtouch.min.js"></script>
 </head>
 <body>
-<div id="home" class="current">
-{% block header %}<div class="toolbar"><h1>Candy Picker</h1></div>
-{% endblock %}
-{% block contentheader %}<div id="content">{% endblock %}
 {% endif %}
 {% block content %}{% endblock %}
-{% block javascript %}
-{% endblock %}
 {% if not request.is_ajax %}
-{% block contentfooter %}</div>{% endblock %}
-</div>
 {% block footer %}{% endblock %}
 </body></html>{% endif %}

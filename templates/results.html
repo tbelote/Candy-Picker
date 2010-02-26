@@ -1,17 +1,3 @@
-{% extends "base.html" %}
-{% block content %}
-<script type="text/javascript">
-$.jQTouch({
-icon: '/m/images/icon.png',
-startupScreen: '/m/images/startup.png'
-});
-</script>
-<ul class="edgetoedge">
 {% for i in candies %}
 <li>{{i.name}}</li>
 {% endfor %}
-</ul>
-
-<a href="/" target="_webapp" style="margin: 10px;" class="submit whiteButton">Preferences</a>
-<a href="/results" target="_webapp" style="margin: 10px;" class="submit whiteButton">Pick Again</a>
-{% endblock %}
